@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -10,4 +12,18 @@
 
 html {
 	font-family: 'SF Pro', system-ui, sans-serif;
+}
+
+@layer {
+	@font-face {
+		font-family: 'SF Pro Display';
+		src: local('☺'),
+			url("/icloud-clone-astro/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2") format("woff2");
+	}
+
+	@font-face {
+		font-family: 'SF Pro Text';
+		src: local('☺'),
+			url("/icloud-clone-astro/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2") format("woff2");
+	}
 }
