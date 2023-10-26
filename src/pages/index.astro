@@ -1,0 +1,72 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Tile from "../components/Tile.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="iCloud">
+  <Header />
+  <main class="min-h-screen max-w-screen bg-[#fbfbfd]">
+    <div class="flex flex-col items-center text-center">
+      <div class="max-w-[398px]">
+        <div class="w-[390px] h-[352px]">
+          <video
+            src="/hero.mp4"
+            width="430"
+            height="388"
+            autoplay
+            playsinline
+            loop
+            muted
+            x-webkit-airplay="deny"
+            title="Animation showing different users' Memojis surrounded by the icons of the apps the user personally uses most"
+          >
+          </video>
+        </div>
+        <h1
+          class="text-[96px] font-semibold text-black font-['SF_Pro_Display'] tracking-[-2.8px] leading-[167px] sm:text-[140px]"
+        >
+          iCloud
+        </h1>
+      </div>
+      <div class="mt-[30px]">
+        <div class="flex flex-col items-center">
+          <button
+            type="button"
+            class="w-[146px] h-[44px] text-white bg-black font-['SF Pro Text'] rounded-[44px] px-[30px] font-semibold text-[19px] hover:bg-[#0000008f] active:bg-[#0000006c] leading-[20px]"
+          >
+            Sign In
+          </button>
+          <h2
+            class="text-[#1d1d1f] text-[24px] font-semibold leading-[28px] max-w-[300px] font-['SF_Pro_Display'] mt-[40px] sm:text-[40px] sm:max-w-[478px] sm:leading-[44px]"
+          >
+            The best place for all your photos, files, notes, mail, and more.
+          </h2>
+        </div>
+        <div class="flex flex-col items-center gap-[50px] mt-[90px] lg:flex-row">
+          <Tile
+            imgSrc="/apps-compressed.png"
+            imgAlt="Collection of icons for apps available on iCloud.com, including Mail, Find My, and Reminders"
+            title="Easily access apps and data from your iPhone on the web"
+          >
+            iCloud is essential for keeping personal information from your devices safe,
+            up to date, and available wherever you are. At iCloud.com, you can access your
+            photos, files, and more from any web browser. Changes you make will sync to
+            your iPhone and other devices, so you’re always up to date.
+          </Tile>
+          <Tile
+            imgSrc="/icloud-plus.png"
+            imgAlt="Graphic depicting the icons for various iCloud+ benefits, including up to 12TB of storage"
+            title="More storage plus additional features to protect your privacy"
+          >
+            Upgrade to iCloud+ to get more storage and additional features like iCloud
+            Private Relay, Hide My Email, and HomeKit Secure Video. You can even share
+            your subscription with your family. Learn more at apple.com/icloud.
+          </Tile>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>

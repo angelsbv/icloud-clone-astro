@@ -1,0 +1,25 @@
+---
+const { imgSrc, imgAlt, title } = Astro.props;
+---
+
+<div
+  class="text-left shadow-[17px_20px_40px_#00000036] w-[95%] h-auto p-[40px] rounded-2xl sm:w-[650px] lg:w-[478px]"
+>
+  <div class="mx-[35px] sm:h-[250px]">
+    <img
+      class="w-full max-h-[250px] object-contain sm:max-h-[full] sm:h-full"
+      src={imgSrc}
+      alt={imgAlt}
+    />
+  </div>
+  <h2
+    class="mt-[20px] font-['SF_Pro_Display'] text-[28px] font-semibold leading-[32px] text-[#1d1d1f]"
+  >
+    {title}
+  </h2>
+  <p
+    class="mt-[20px] font-['SF_Pro_Text'] text-[17px] font-normal leading-[25px] text-[#1d1d1f] tracking-[-.37px]"
+  >
+    <slot />
+  </p>
+</div>
