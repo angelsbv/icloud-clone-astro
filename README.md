@@ -1,54 +1,25 @@
-# Astro Starter Kit: Basics
+## iCloud Clone
 
-```sh
-npm create astro@latest -- --template basics
-```
+The information and content provided on this platform, website, or resource (hereinafter referred to as "the Content") are intended solely for educational purposes. This disclaimer is designed to clarify the nature of the Content and to establish the terms and conditions of its use. By accessing or using the Content, you agree to abide by the following terms:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+No Professional Advice: The Content is not intended to provide professional advice or services. It is not a substitute for professional guidance, consultation, or services. Any actions or decisions made based on the Content are at your own discretion and risk.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Accuracy and Completeness: While we strive to provide accurate and up-to-date information, we do not guarantee the accuracy, completeness, or reliability of the Content. Information may become outdated, and errors may occur. You are encouraged to independently verify any information presented.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Not Endorsement: Reference to specific products, services, organizations, or individuals in the Content does not imply endorsement or recommendation. Any views or opinions expressed in the Content are those of the authors and do not necessarily reflect our views.
 
-## 🚀 Project Structure
+Third-Party Links: The Content may contain links to third-party websites, resources, or content. These links are provided for convenience and informational purposes only. We are not responsible for the content or practices of these third-party sites.
 
-Inside of your Astro project, you'll see the following folders and files:
+User Responsibility: Your use of the Content is your responsibility. You are responsible for how you use and interpret the information provided. We are not liable for any consequences, losses, or damages that may arise from your use of the Content.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+No Guarantee of Results: We do not guarantee specific outcomes or results based on the use of the Content. Educational information may not yield the same results for all individuals or circumstances.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Copyright and Fair Use: The Content may be protected by copyright or other intellectual property rights. You are responsible for adhering to applicable copyright and fair use laws when using, reproducing, or distributing the Content.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Changes and Updates: We reserve the right to change, modify, or update the Content or this disclaimer at any time without prior notice. It is your responsibility to stay informed about any changes.
 
-Any static assets, like images, can be placed in the `public/` directory.
+No Legal Relationship: Your use of the Content does not create a legal or professional relationship between you and the creators, authors, or providers of the Content.
 
-## 🧞 Commands
+Jurisdiction: This disclaimer is governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising from the use of the Content shall be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+By accessing and using the Content, you acknowledge that you have read, understood, and agreed to this disclaimer. If you do not agree with any part of this disclaimer, you are not authorized to use the Content.
